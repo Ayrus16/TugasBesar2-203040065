@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.udl {
+    display: inline;
+    background-image: linear-gradient(#eeff00, #eeff00);
+    background-size: 0% 2px;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    transition: background 1    s ease-out;
+  }
+  
+  .udl:hover {
+    background-size: 100% 2px;
+  }
+/* --------------------------------- Navbar --------------------------------- */
+.navbar{
+    background-color: yellow !important;
+    border: 3px solid white;
+    margin: 10px 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 0;
+    box-sizing: border-box;
+    height: 65px;
+    font-size: 18px;
+    
+}
+.navbar-collapse{
+    box-sizing: border-box;
+    margin: 10px;
+}
+.nav-item{
+    padding: 5px;
+    margin: 0 5px;
+    box-sizing: border-box;
+    padding: 10px 20px !important;
+    transition: all 0.3s ease-in;
+    
+}
+.nav-item.active{
+    box-sizing: border-box !important; 
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.nav-item:hover{
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: black;
+    
+    border: 2px solid black;
+    
+}
+
+
+/* ---------------------------------- Home ---------------------------------- */
+
+.carousel-item img{
+    max-height: 100% !important;
+    object-fit: cover;
+}
+.home .carousel-item img{
+    filter: brightness(20%);
+}
+
+/* ---------------------------------- About --------------------------------- */
+.about{
+    padding-top: 20px   ;
+    min-height: 500px;
+    background-color: black;
+    color: white;
+}
+.title{
+    padding: 20px;
+}
+.about:hover .udl {
+    background-size: 100% 2px;
+  }
