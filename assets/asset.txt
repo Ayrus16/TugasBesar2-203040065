@@ -1,11 +1,12 @@
-yeezy
+Photos :
+Bg1:
 https://unsplash.com/photos/_3reYWNMiiA
 
-nike skater
+bg2:
 https://unsplash.com/photos/CFpYfk4H_Hw
 
-jordan 
+Bg3:
 https://unsplash.com/photos/ERHQWbi3ipU
 
-nike
+Bg4:
 https://unsplash.com/photos/zI23N21e6UM
