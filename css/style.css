@@ -2,81 +2,124 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-
 .udl {
     display: inline;
-    background-image: linear-gradient(#eeff00, #eeff00);
+    background-image: linear-gradient(yellow, yellow);
     background-size: 0% 2px;
     background-position: 0% 100%;
     background-repeat: no-repeat;
-    transition: background 1    s ease-out;
-  }
+    transition: background .5s ease-out;
+}
   
-  .udl:hover {
+.udl:hover {
     background-size: 100% 2px;
-  }
+}
+
 /* --------------------------------- Navbar --------------------------------- */
 .navbar{
-    background-color: yellow !important;
-    border: 3px solid white;
-    margin: 10px 10px;
-    border-radius: 50px;
-    font-weight: bold;
-    padding: 0;
-    box-sizing: border-box;
-    height: 65px;
-    font-size: 18px;
-    
-}
-.navbar-collapse{
-    box-sizing: border-box;
-    margin: 10px;
+    height: 80px;
+    background-color: transparent !important;
 }
 .nav-item{
-    padding: 5px;
-    margin: 0 5px;
-    box-sizing: border-box;
-    padding: 10px 20px !important;
-    transition: all 0.3s ease-in;
-    
+    font-size: 20px;
 }
-.nav-item.active{
-    box-sizing: border-box !important; 
-    color: black;
-    border: 2px solid black;
-    border-radius: 50px;
-}
-.nav-item:hover{
-    border-radius: 50px;
-    box-sizing: border-box;
-    color: black;
-    
-    border: 2px solid black;
-    
-}
-
 
 /* ---------------------------------- Home ---------------------------------- */
-
-.carousel-item img{
-    max-height: 100% !important;
-    object-fit: cover;
+.jumbotron {
+    background: url("../assets/img/bg1.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 650px;
+    margin-bottom: 0;
+    filter:background brightness(60%) ;
 }
-.home .carousel-item img{
-    filter: brightness(20%);
+.jumbotron .container{
+    color: white;
+    padding-top: 75px;
+}
+.home h1{
+    margin-bottom: 0;
+    text-shadow: 3px 3px 2px black;
+}
+.home h2{
+    display: inline-block;
+    font-weight: bold !important;
+    text-shadow: 3px 3px 2px black;
+}
+html:hover .home .udl {
+    background-size: 100% 35px;
+}
+.home .udl {
+    background-size: 0% 35px;
+    background-position: 0% 100%;
+    transition: background 1s ease-in-out;
+}
+.home .lead{
+    background-color: black;
+    display: inline-block;
+    padding : 8px;
+    font-size: 30px;
+    letter-spacing: 5px;
 }
 
 /* ---------------------------------- About --------------------------------- */
-.about{
-    padding-top: 20px   ;
+.about .card{
+    margin: 0;
+    border: 0;
+    margin-bottom: 0;
+    background-color: #e6dedd;
+    
+}
+.about .card img{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.about .card-body{
+    padding-top: 50px;
+    padding-left: 60px;
+    margin-bottom: 0;
+}
+.about .title-sec{
+    margin-bottom: 40px;
+}
+.about p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.about .udl {
+    background-size: 0% 22px;
+    background-position: 0% 100%;
+    transition: background 1s ease-in-out;
+}
+.about:hover  .udl {
+    background-size: 100% 22px;
+}
+
+
+/* --------------------------------- Why us --------------------------------- */
+.whyus{
     min-height: 500px;
     background-color: black;
     color: white;
 }
-.title{
-    padding: 20px;
+.whyus .container {
+    padding: 30px;
 }
-.about:hover .udl {
-    background-size: 100% 2px;
-  }
+.whyus h1{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.whyus:hover .udl {
+    background-size: 100% 5px;
+}
+.whyus .udl {
+    background-size: 0% 5px;
+    background-position: 0% 100%;
+}
+.tittle-sec span{
+    color: yellow;
+}
