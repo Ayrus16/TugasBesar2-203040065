@@ -1,4 +1,4 @@
-Photos :
+# ---------------------------------- Photos ---------------------------------- #
 Bg1:
 https://unsplash.com/photos/_3reYWNMiiA
 
@@ -10,3 +10,8 @@ https://unsplash.com/photos/ERHQWbi3ipU
 
 Bg4:
 https://unsplash.com/photos/zI23N21e6UM
+
+
+# ----------------------------------- icon ----------------------------------- #
+FontAwesome:
+https://fontawesome.com/icons
