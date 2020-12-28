@@ -6,7 +6,7 @@
 }
 .udl {
     display: inline;
-    background-image: linear-gradient(yellow, yellow);
+    background-image: linear-gradient(#FDE74C, #FDE74C);
     background-size: 0% 2px;
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -17,13 +17,36 @@
     background-size: 100% 2px;
 }
 
+/* -------------------------------- Scrollbar ------------------------------- */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #141414;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #FDE74C;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(253, 253, 253); 
+  }
 /* --------------------------------- Navbar --------------------------------- */
 .navbar{
     height: 80px;
     background-color: transparent !important;
+    transition: all .4s ease;
 }
 .nav-link{
     font-size: 20px;
+}
+.navbar-colored{
+    background-color: #141414 !important;
+}
+.navbar-transparent{
+    background-color: transparent !important;
 }
 
 /* ---------------------------------- Home ---------------------------------- */
@@ -71,7 +94,7 @@ html:hover .home .udl {
     margin: 0;
     border: 0;
     margin-bottom: 0;
-    background-color: #e6dedd;
+    background-color: #EEE5E9;
     
 }
 .about .card img{
@@ -103,7 +126,7 @@ html:hover .home .udl {
 /* --------------------------------- Why us --------------------------------- */
 .whyus{
     min-height: 500px;
-    background-color: black;
+    background-color: #141414;
     color: white;
 }
 .whyus .container {
@@ -121,5 +144,77 @@ html:hover .home .udl {
     background-position: 0% 100%;
 }
 .tittle-sec span{
-    color: yellow;
+    color: #FDE74C;
+}
+
+/* --------------------------------- Product -------------------------------- */
+.controls-top.row{
+    margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+/* --------------------------------- Footer --------------------------------- */
+.footer{
+    padding: 2% 7%;
+    color: #646771;
+    background-color: #141414;
+}
+.footer .brand-logo{
+    max-width: 50px;
+    max-height: 50px;
+}
+.footer .company-brand h1{
+     color: #FDE74C;
+     margin-left: 10px;
+     border-left: 2px solid rgba(189, 196, 203, 0.5);
+     padding-left: 10px;
+} 
+.footer .company-brand h1 span{
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+ul>li {
+    padding: 4px
+}
+
+ul>li:hover {
+    color: #FDE74C;
+    cursor: pointer
+}
+
+
+.social i {
+    padding: 1%;
+    margin-right: 5px;
+    font-size: 20px
+}
+
+.social i:hover {
+    color:#FDE74C;
+    cursor: pointer
+}
+
+.heading {
+    color: white
+}
+
+.line {
+    border-top: 2px solid #FDE74C;
+}
+.footer h6{
+    transition: all .5s ease;
+}
+.footer:hover h6{
+    color: #FDE74C;
 }

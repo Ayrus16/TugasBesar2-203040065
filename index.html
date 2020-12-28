@@ -16,10 +16,10 @@
     <!-- ----------------------------------------------------------------------- -->
     <!--                                 Navbar                                  -->
     <!-- ----------------------------------------------------------------------- -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mynav">
       <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="assets/img/logo-white.png" width="55" height="55" alt="" loading="lazy">
+        <img src="assets/img/logo-white.png" width="55" height="55" alt="" loading="lazy" id="nav-brand">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -105,41 +105,6 @@
   </div>
 </section>
 
-<div class="card text-center">
-  <div class="card-header">
-    <ul class="nav nav-tabs card-header-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#product">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
 
 
 
@@ -153,14 +118,14 @@
 <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
   <!--Controls-->
-  <div class="controls-top center ml-auto">
-    <a class="btn btn-outline-warning rounded-circle" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left"></i></a>
+  <div class="controls-top row justify-content-md-center">
+    <a class="btn btn-outline-warning rounded-circle col-md-auto" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left"></i></a>
     <a class="btn btn-outline-warning rounded-circle" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right"></i></a>
   </div>
   <!--/.Controls-->
 
   <!--Indicators-->
-  <ol class="carousel-indicators center">
+  <ol class="carousel-indicators ">
     <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
     <li data-target="#multi-item-example" data-slide-to="1"></li>
     
@@ -268,6 +233,57 @@
 
 
 
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                                 Footer                                  -->
+<!-- ----------------------------------------------------------------------- -->
+<section class="footer" id="footer">
+        <div class="row mb-4 ">
+            <div class="col-md-4 col-sm-11 col-xs-11">
+                <div class="footer-text pull-left">
+                    <div class="d-flex company-brand">
+                        <img src="assets/img/logo-color.png" alt="" class="brand-logo">
+                        <h1>X<span>Raa</span></h1>
+                    </div>
+                    <p class="card-text">Raa is the global platform for style base in indonesia. Founded in 2020 to bring trust to the sneaker community</p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4">
+                <h5 class="heading">Our Product</h5>
+                <ul>
+                    <li>Shoes</li>
+                    <li>Bags</li>
+                    <li>Watches</li>
+                    <li>Collectibles</li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-4">
+                <h5 class="heading">Website</h5>
+                <ul class="card-text">
+                    <li>About Us</li>
+                    <li>Why Us</li>
+                    <li>Our Product</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-4">
+                <h5 class="heading ">Find Us On</h5>
+                <ul class="card-text social">
+                    <li><i class="fab fa-facebook"></i></i></i>Facebook</li>
+                    <li><i class="fab fa-instagram"></i> Instagram</li>
+                    <li><i class="fab fa-android"></i>Playstore</li>
+                    <li><i class="fab fa-app-store"></i>AppStore</li>
+                </ul>
+            </div>
+        </div>
+        <div class="line mb-4"> </div>
+        <div class="row" style="font-size:10px;">
+            <div class="col-md-12 text-center">
+                    <h6><i class="fa fa-copyright"></i> 2020 XRaa. All Rights Reserved.</h6>
+            </div>
+        </div>
+</section>
 
 </div>
 

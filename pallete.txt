@@ -1,9 +1,12 @@
-f89d13 oren
+#FDE74C kuning
 
-1b120f hitam
+#141414 hitam
 
-8f1d14 merah
+#F08700 oren 
 
-e6dedd abu
+#A0AAB2 abu
 
-fafafa putih
+ #EEE5E9 abu2
+
+#fafafa putih
+#05668D biru
