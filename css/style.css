@@ -137,14 +137,23 @@ html:hover .home .udl {
     padding-bottom: 10px;
 }
 .whyus:hover .udl {
-    background-size: 100% 5px;
+    background-size: 100% 3px;
 }
 .whyus .udl {
-    background-size: 0% 5px;
+    background-size: 0% 3px;
     background-position: 0% 100%;
 }
 .tittle-sec span{
     color: #FDE74C;
+}
+.whyus .card{
+    background-color: transparent;
+}
+.whyus .card{
+    border: 0;
+}
+.whyus .icons{
+    font-size: 150px;
 }
 
 /* --------------------------------- Product -------------------------------- */
@@ -217,4 +226,7 @@ ul>li:hover {
 }
 .footer:hover h6{
     color: #FDE74C;
+}
+.footer-content:hover .heading {
+    background-size: 100% 2px;
 }
