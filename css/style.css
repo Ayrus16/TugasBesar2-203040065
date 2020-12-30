@@ -94,7 +94,7 @@ html:hover .home .udl {
     margin: 0;
     border: 0;
     margin-bottom: 0;
-    background-color: #EEE5E9;
+    background-color:#ffff !important;
     
 }
 .about .card img{
@@ -131,10 +131,16 @@ html:hover .home .udl {
 }
 .whyus .container {
     padding: 30px;
+    
+    
 }
 .whyus h1{
     display: inline-block;
     padding-bottom: 10px;
+    margin-top: 40px;
+}
+.whyus .card h5{
+    margin-bottom: 40px;
 }
 .whyus:hover .udl {
     background-size: 100% 3px;
@@ -148,12 +154,17 @@ html:hover .home .udl {
 }
 .whyus .card{
     background-color: transparent;
-}
-.whyus .card{
     border: 0;
+    padding: 10px;
 }
+
 .whyus .icons{
     font-size: 150px;
+    transition: all .5s ease;
+    margin: 30px auto;
+}
+.whyus .card:hover .icons{
+    color: #FDE74C;
 }
 
 /* --------------------------------- Product -------------------------------- */
