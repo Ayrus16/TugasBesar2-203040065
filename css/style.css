@@ -123,6 +123,20 @@ html:hover .home .udl {
     font-size: 20px;
     padding-top: 20px;
 }
+.about .back-element {
+    display: inline;
+    background-image: linear-gradient(#FDE74C, #FDE74C);
+    background-size: 45% 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    transition: background .5s ease-out;
+    padding: 0;
+}
+  
+.about .back-element:hover {
+    background-size: 0% 100%;
+}
+
 
 /* --------------------------------- Why us --------------------------------- */
 .whyus{
