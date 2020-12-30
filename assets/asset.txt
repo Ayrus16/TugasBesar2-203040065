@@ -11,6 +11,17 @@ https://unsplash.com/photos/ERHQWbi3ipU
 Bg4:
 https://unsplash.com/photos/zI23N21e6UM
 
+sneakers:
+https://www.goat.com/sneakers/pharrell-x-nmd-human-race-inspiration-pack-ee7583
+
+hoodie:
+https://www.goat.com/apparel/vlone-canvas-hoodie-yellow-o-3-ylw
+
+tshirt:
+https://www.goat.com/apparel/comme-des-garcons-play-heart-logo-t-shirt-black-az-t108-051-1
+
+bags:
+https://www.goat.com/apparel/abstract-arrows-backpack-black-omnb003f19c360111001
 
 # ----------------------------------- icon ----------------------------------- #
 FontAwesome:

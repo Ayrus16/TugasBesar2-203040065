@@ -109,10 +109,7 @@ html:hover .home .udl {
 .about .title-sec{
     margin-bottom: 40px;
 }
-.about p{
-    font-size: 20px;
-    padding-top: 20px;
-}
+
 .about .udl {
     background-size: 0% 22px;
     background-position: 0% 100%;
@@ -121,7 +118,11 @@ html:hover .home .udl {
 .about:hover  .udl {
     background-size: 100% 22px;
 }
-
+.about h6{
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-top: 20px;
+}
 
 /* --------------------------------- Why us --------------------------------- */
 .whyus{
@@ -168,12 +169,49 @@ html:hover .home .udl {
 }
 
 /* --------------------------------- Product -------------------------------- */
-.controls-top.row{
-    margin: 0 !important;
+.controls-top .btn{
+    border: solid 1px #646771;
+    color: #646771;
+    margin: 5px;
+}
+.controls-top .btn:focus{
+    box-shadow: 0px 0px 5px #646771;
+}
+.controls-top .btn:hover{
+    border: solid 1px #141414;
+    color: #141414
+}
+.product .container{
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 
+.product .udl {
+    background-size: 0% 22px;
+    background-position: 0% 100%;
+    transition: background 1s ease-in-out;
+}
+.product:hover  .udl {
+    background-size: 100% 22px;
+}
+.product h3{
+    margin-top: 25px;
+}
 
-
+.product h6{
+    letter-spacing: 2px;
+}
+.product .card-img-top{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+.product .card{
+    border:  solid px #141414;
+}
+.product .card-body {
+    padding-top: 0px;
+}
 /* --------------------------------- Contact -------------------------------- */
 .contact{
     background-color: #141414;
