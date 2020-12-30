@@ -206,11 +206,36 @@ html:hover .home .udl {
     width: 300px;
     margin: auto;
 }
+.product .carousel{
+    border:  solid 1px #141414;
+}
 .product .card{
-    border:  solid px #141414;
+    border:  none;
+    background-color: transparent;
 }
 .product .card-body {
     padding-top: 0px;
+}
+
+
+.back-element {
+    display: inline;
+    background-image: linear-gradient(#FDE74C, #FDE74C);
+    background-size: 45% 100%;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    transition: background .5s ease-out;
+    padding: 0;
+}
+  
+.back-element:hover {
+    background-size: 0% 100%;
+}
+.product .btn:hover .back-element {
+    background-size: 0% 100%;
+}
+.product img{
+    filter: drop-shadow(2px 2px 3px #222);
 }
 /* --------------------------------- Contact -------------------------------- */
 .contact{
