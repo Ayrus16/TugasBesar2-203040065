@@ -16,6 +16,17 @@
 .udl:hover {
     background-size: 100% 2px;
 }
+.poster {
+    display: inline;
+    background-image: linear-gradient(#FDE74C, #FDE74C);
+    background-size: 0% 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    transition-delay: 1s;
+    transition: background 1s ease-out;
+    padding: 0;
+}
+
 
 /* -------------------------------- Scrollbar ------------------------------- */
 ::-webkit-scrollbar {
@@ -90,11 +101,14 @@ html:hover .home .udl {
 }
 
 /* ---------------------------------- About --------------------------------- */
+.about{
+    background-color: white;
+}
 .about .card{
     margin: 0;
     border: 0;
     margin-bottom: 0;
-    background-color:#ffff !important;
+    background-color:transparent !important;
     
 }
 .about .card img{
@@ -124,17 +138,11 @@ html:hover .home .udl {
     padding-top: 20px;
 }
 .about .back-element {
-    display: inline;
-    background-image: linear-gradient(#FDE74C, #FDE74C);
-    background-size: 45% 100%;
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    transition: background .5s ease-out;
-    padding: 0;
+    background-size: 55% 100% !important;
 }
   
 .about .back-element:hover {
-    background-size: 0% 100%;
+    background-size: 0% 100% !important;
 }
 
 
@@ -231,23 +239,18 @@ html:hover .home .udl {
     padding-top: 0px;
 }
 
+.product .poster{
+    background-position: 100% 0% !important;
+}
 
 .back-element {
-    display: inline;
-    background-image: linear-gradient(#FDE74C, #FDE74C);
-    background-size: 45% 100%;
-    background-position: 100% 0%;
-    background-repeat: no-repeat;
-    transition: background .5s ease-out;
-    padding: 0;
+    background-size: 45% 100% !important;
 }
   
 .back-element:hover {
-    background-size: 0% 100%;
+    background-size: 0% 100% !important;
 }
-.product .btn:hover .back-element {
-    background-size: 0% 100%;
-}
+
 .product img{
     filter: drop-shadow(2px 2px 3px #222);
 }
